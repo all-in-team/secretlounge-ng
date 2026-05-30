@@ -13,4 +13,6 @@ message_reaction_upvote: true
 enable_signing: false
 EOF
 
+python3 apply_patch.py
+
 exec python -m secretlounge_ng
